@@ -58,9 +58,9 @@ public class Application extends Controller
     	Map<String, String[]> values = request().body().asFormUrlEncoded();
     	Product product = new Product();
     	product.barcode = Long.parseLong(values.get("barcode")[0]);
-    	product.pic1 = values.get("pic")[0].getBytes();
-    	product.pic2 = values.get("pic")[1].getBytes();
-    	product.pic3 = values.get("pic")[2].getBytes();
+//    	product.pic1 = values.get("pic")[0].getBytes();
+//    	product.pic2 = values.get("pic")[1].getBytes();
+//    	product.pic3 = values.get("pic")[2].getBytes();
     	return ok(product.barcode + "Sucess");
     	
     }
