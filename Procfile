@@ -1,2 +1,2 @@
-web: target/universal/stage/bin/myfirstapp -Dhttp.port=${PORT}
+web: target/universal/stage/bin/myfirstapp -Dhttp.port=${PORT} -DapplyEvolutions.default=true 
 
