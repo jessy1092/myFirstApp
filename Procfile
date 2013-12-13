@@ -1,1 +1,1 @@
-web: target/universal/stage/bin/myFirstApp -Dhttp.port=$PORT
+web: target/universal/stage/bin/myfirstapp-lee -Dhttp.port=$PORT
