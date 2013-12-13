@@ -19,7 +19,7 @@ public class Application extends Controller
     public static Result index() 
     {
 //  	return ok(index.render("Your new application is ready."));
-    	return ok("Hello World!");
+    	return ok("Hello World! Lee 12314212");
     }
     
     public static Result getProduct(Long barcode)

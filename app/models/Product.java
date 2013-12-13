@@ -6,8 +6,8 @@ import javax.persistence.Table;
 
 import play.db.ebean.Model;
 
+
 @Entity
-//@Table(name = "my_product")
 public class Product extends Model
 {
 	@Id
@@ -17,4 +17,5 @@ public class Product extends Model
 	public byte[] pic1;
 	public byte[] pic2;
 	public byte[] pic3;
+	
 }
